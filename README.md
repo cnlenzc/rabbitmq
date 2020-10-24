@@ -1,0 +1,2 @@
+# rabbitmq
+exemplo simples
