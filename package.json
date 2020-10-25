@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "exemplo simples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnlenzc/rabbitmq.git"
+  },
+  "author": "Carlos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnlenzc/rabbitmq/issues"
+  },
+  "homepage": "https://github.com/cnlenzc/rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
