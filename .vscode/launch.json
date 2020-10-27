@@ -21,6 +21,24 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/src/webapi.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "send",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src-mongo/send.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "receive",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src-mongo/receive.js"
     }
   ]
 }

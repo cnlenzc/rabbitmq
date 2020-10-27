@@ -1,0 +1,5 @@
+global.moment = require('moment')
+global.horario = () => moment().format('HH:mm:ss.SSS')
+global.logInfo = (...args) => console.log(horario(), ...args)
+global.logError = (...args) => console.error(horario(), ...args)
+global.sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
